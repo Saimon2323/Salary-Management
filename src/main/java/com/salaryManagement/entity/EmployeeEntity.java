@@ -29,7 +29,7 @@ public class EmployeeEntity {
     private String name;
 
     @NotNull
-    private String grade;
+    private String designation;
 
     @NotNull
     @Column(columnDefinition = "TEXT")
